@@ -6,6 +6,28 @@ The project grows the multimodal Gemini and multimodal-RAG concepts from the sup
 
 ![DocuMind system](docs/images/system_overview.svg)
 
+## Sample application output
+
+The following screens show the intended application flow and match the current DocuMind UI and feature set. They are sample outputs for repository documentation; the exact answer text and indexed sources will depend on the files a user provides and the configured Gemini model.
+
+### Grounded chat with source citations
+
+![DocuMind grounded chat](docs/screenshots/chat_answer.svg)
+
+A question is answered from retrieved knowledge while the supporting source files and locations remain visible to the user.
+
+### Multimodal upload and indexing
+
+![DocuMind multimodal upload](docs/screenshots/multimodal_upload.svg)
+
+The knowledge library accepts mixed file types in one workflow, including PDFs, images, audio, video, spreadsheets and presentations.
+
+### Persistent knowledge library
+
+![DocuMind knowledge library](docs/screenshots/knowledge_library.svg)
+
+Indexed sources remain available in the persistent vector store so new conversations can search previously added knowledge without rebuilding the whole collection.
+
 ## What DocuMind does
 
 - accepts mixed file collections instead of one document format
