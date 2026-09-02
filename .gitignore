@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Secrets
+.env
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Local runtime data
+data/uploads/*
+!data/uploads/.gitkeep
+data/index/*
+!data/index/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
